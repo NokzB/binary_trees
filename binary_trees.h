@@ -8,7 +8,6 @@
 #include <stdbool.h>
 #include <limits.h>
 
-#define MAX(a, b) ((a) > (b) ? (a) : (b))
 
 /* basic binary tree structure */
 
