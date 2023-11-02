@@ -8,7 +8,7 @@
 #include <stdbool.h>
 #include <limits.h>
 
-#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
 /* basic binary tree structure */
 
 /**
@@ -42,4 +42,5 @@ typedef struct binary_tree_s heap_t;
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 #endif /* BINARY_TREES_ H*/
